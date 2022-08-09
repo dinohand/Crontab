@@ -3,13 +3,14 @@
 ###  Thanks , [alseambusher/crontab-ui](https://github.com/alseambusher/crontab-ui)
 <hr>
 
-## 환경 설정에 따른 lauch script
+## 환경 설정에 따른 launch script
 환경 변수 process.env.PORT를 지정하기 위해서는
-
-`- windows
-`\>set PORT=3000
-`- Linux
-`$export PORT=3000
+`
+- windows
+\>set PORT=3000
+- Linux
+$export PORT=3000
+`
 과 같이 하여줌
 
 package.json에서는
