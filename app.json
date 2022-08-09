@@ -1,0 +1,10 @@
+{
+  "name": "Crontab UI",
+  "description": "Easy and safe way to manage your crontab file",
+  "repository": "https://github.com/dinohand/Crontab",
+  "logo": "http://node-js-sample.herokuapp.com/node.svg",
+  "keywords": [
+    "Crontab",
+    "node"
+  ]
+}

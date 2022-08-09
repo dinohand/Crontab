@@ -1,0 +1,42 @@
+{
+  "name": "CronTab",
+  "version": "0.1",
+  "description": "GP1 middleware",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "start:dev": "nodemon node app.js",
+    "test": "node tests/test.js"
+  },
+  "dependencies": {
+    "body-parser": "latest",
+    "connect-busboy": "latest",
+    "cron-parser": "latest",
+    "cronstrue": "latest",
+    "ejs": "latest",
+    "express": "latest",
+    "express-basic-auth": "^1.2.0",
+    "mime-types": "latest",
+    "moment": "latest",
+    "nedb": "latest",
+    "nodemailer": "^6.7.3",
+    "nodemon": "^2.0.19"
+  },
+  "engines": {
+    "node": ">=15.0.0"
+  },
+  "bin": {
+    "crontab-ui": "bin/crontab-ui.js",
+    "crontab-ui-mailer": "bin/crontab-ui-mailer.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alseambusher/crontab-ui"
+  },
+  "keywords": [
+    "Crontab",
+    "node"
+  ],
+  "author": "Suresh Alse",
+  "license": "MIT"
+}

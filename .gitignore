@@ -1,3 +1,6 @@
+#vscode launch set
+launch.json
+
 # Logs
 logs
 *.log
