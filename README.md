@@ -24,4 +24,6 @@ package.json에서는
 </pre>
 와 같이 윈도우와 리눅스에서 환경 변수를 지정하는 방법을 각각 적용한 스크립트를 생성한다
 
-###
+### 참고사이트
+- 리눅스 크론탭(Linux Crontab) 사용법 (https://jdm.kr/blog/2)
+- 리눅스 작업스케줄러 crontab 사용법 (https://server-talk.tistory.com/10)
